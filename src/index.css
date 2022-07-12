@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-pattern {
+	background-image: url('./images/bg-pattern-intro-desktop.svg');
+	background-repeat: no-repeat;
+	background-size: contain contain;
+	background-position: center center;
+	/* background-blend-mode: soft-light; */
+}
+
+/* Header */
+
+.header-section {
+	@apply w-full bg-pattern bg-very-light-red text-white px-48;
+}
