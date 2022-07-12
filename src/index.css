@@ -6,12 +6,17 @@
 	background-image: url('./images/bg-pattern-intro-desktop.svg');
 	background-repeat: no-repeat;
 	background-size: contain contain;
-	background-position: center center;
+	background-position: 35% center;
 	/* background-blend-mode: soft-light; */
 }
 
 /* Header */
 
 .header-section {
-	@apply w-full bg-pattern bg-very-light-red text-white px-48;
+	@apply w-full bg-pattern text-white px-48;
+}
+
+.header-background {
+	@apply bg-gradient-to-r from-gradient-very-light-red to-gradient-light-red ;
+	border-bottom-left-radius: 100px;
 }

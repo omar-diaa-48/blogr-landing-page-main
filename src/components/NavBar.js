@@ -5,7 +5,7 @@ import Link from "./shared/Link"
 
 export default function NavBar() {
 	return (
-		<nav className="flex items-center h-32 font-ubuntu">
+		<nav className="flex items-center h-32 font-ubuntu mb-16">
 
 			<div className="mr-4 flex-grow lg:flex-grow-0">
 				<img alt="Logo" src={Logo} />
@@ -19,7 +19,7 @@ export default function NavBar() {
 
 			<AuthLink title="Login" className="mr-4" />
 
-			<AuthLink title="Sign Up" />
+			<AuthLink title="Sign Up" className="bg-white text-primary-light-red px-4 py-2 rounded-full" />
 
 			<BurgerMenuButton />
 
