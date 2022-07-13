@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar-track {
+	@apply bg-primary-very-light-red;
+}
+
+::-webkit-scrollbar-thumb {
+	@apply bg-primary-light-red;
+	border-radius: 10px;
+}
+
 .bg-pattern {
 	background-image: url('./images/bg-pattern-intro-desktop.svg');
 	background-repeat: no-repeat;

@@ -1,11 +1,11 @@
 export default function DesignSection() {
 	return (
-		<section className="flex flex-col justify-center items-center text-primary-very-dark-blue mt-32 mb-16 px-48">
+		<section className="flex flex-col justify-center items-center relative text-primary-very-dark-blue mt-32 mb-16 px-48">
 
-			<h2 className="text-4xl mb-8 text-center">Designed for the future</h2>
+			<h2 className="text-4xl lg:mb-32 text-center">Designed for the future</h2>
 
-			<div className="flex flex-col lg:flex-row items-center relative">
-				<img className="block lg:absolute lg:-right-96 lg:-top-32 opacity-90" src="images/illustration-editor-desktop.svg" alt="designed-for-future" />
+			<div className="flex flex-col lg:flex-row items-start lg:items-center">
+				<img className="block lg:absolute lg:-right-96 lg:-top-24 my-8 lg:my-0 opacity-90" src="images/illustration-editor-desktop.svg" alt="designed-for-future" />
 
 				<div className="flex flex-col text-center lg:text-left lg:w-1/2">
 					<h3 className="text-2xl mb-8">
