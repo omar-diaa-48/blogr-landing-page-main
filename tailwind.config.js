@@ -21,6 +21,10 @@ module.exports = {
 			fontFamily: {
 				overpass: ["Overpass"],
 				ubuntu: ["Ubuntu"]
+			},
+			spacing: {
+				'128': '32rem',
+				'144': '36rem',
 			}
 		},
 	},

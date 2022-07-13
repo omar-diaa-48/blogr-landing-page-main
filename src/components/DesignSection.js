@@ -3,7 +3,7 @@ import AnimatedImage from "./shared/AnimatedImage";
 export default function DesignSection() {
 
 	return (
-		<section className="flex flex-col justify-center items-center relative text-primary-very-dark-blue mt-32 mb-16 px-48">
+		<section className="flex flex-col justify-center items-center relative text-primary-very-dark-blue mt-32 mb-32 px-12 lg:px-48">
 
 			<h2 className="text-4xl lg:mb-32 text-center">Designed for the future</h2>
 

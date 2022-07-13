@@ -31,3 +31,9 @@
 	border-bottom-left-radius: 100px;
 	overflow: hidden;
 }
+
+.infrastructure-section-background {
+	@apply bg-gradient-very-dark-desaturated-blue;
+	border-bottom-left-radius: 100px;
+	border-top-right-radius: 100px;
+}

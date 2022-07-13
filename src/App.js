@@ -1,5 +1,6 @@
 import DesignSection from "./components/DesignSection";
 import Header from "./components/Header";
+import InfrastructureSection from "./components/InfrastructureSection";
 
 function App() {
 	return (
@@ -9,7 +10,7 @@ function App() {
 
 			<DesignSection />
 
-			<section></section>
+			<InfrastructureSection />
 
 			<section></section>
 
