@@ -1,12 +1,13 @@
+import DesignSection from "./components/DesignSection";
 import Header from "./components/Header";
 
 function App() {
 	return (
-		<div className="min-h-full min-w-full">
+		<div className="overflow-hidden">
 
 			<Header />
 
-			<section></section>
+			<DesignSection />
 
 			<section></section>
 
