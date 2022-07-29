@@ -32,6 +32,16 @@
 	overflow: hidden;
 }
 
+.footer-section {
+	@apply w-full text-white px-12 lg:px-48;
+}
+
+.footer-background {
+	@apply lg:mt-72 bg-gradient-very-dark-gray-blue;
+	border-top-right-radius: 100px;
+	overflow: hidden;
+}
+
 .infrastructure-section-background {
 	@apply bg-gradient-very-dark-desaturated-blue;
 	border-bottom-left-radius: 100px;
