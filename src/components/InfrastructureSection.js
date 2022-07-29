@@ -7,7 +7,7 @@ export default function InfrastructureSection() {
 			<AnimatedImage
 				src="images/illustration-phones.svg"
 				alt="art-infrastructure"
-				className="block max-w-lg xl:absolute xl:left-24 xl:-top-24 opacity-90"
+				className="block xl:absolute xl:left-24 xl:-top-24 opacity-90"
 				variants={{
 					initial: { opacity: 0, translateY: "100px" },
 					animated: { opacity: 1, translateY: 0, }

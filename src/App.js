@@ -1,5 +1,6 @@
 import DesignSection from "./components/DesignSection";
 import Header from "./components/Header";
+import InfoSection from "./components/InfoSection";
 import InfrastructureSection from "./components/InfrastructureSection";
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
 
 			<InfrastructureSection />
 
-			<section></section>
+			<InfoSection />
 
 			<footer></footer>
 
