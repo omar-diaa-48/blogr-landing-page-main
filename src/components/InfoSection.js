@@ -3,16 +3,16 @@ import AnimatedImage from "./shared/AnimatedImage";
 export default function InfoSection() {
 
 	return (
-		<section className="flex flex-col justify-center items-center relative text-primary-very-dark-blue mt-64 mb-32 px-12 lg:px-48">
+		<section className="flex flex-col justify-center items-center relative text-primary-very-dark-blue mt-12 lg:mt-64 mb-32 px-12 lg:px-48">
 
 			<div className="flex flex-col lg:flex-row items-start lg:justify-end">
 				<AnimatedImage
-					src="images/illustration-editor-desktop.svg"
+					src="images/illustration-laptop-desktop.svg"
 					alt="designed-for-future"
-					className="block max-w-2xl lg:absolute lg:-left-24 lg:-top-24 my-8 lg:my-0 opacity-90"
+					className="block lg:absolute lg:-left-96 xl:-left-48 lg:-top-24 my-8 lg:my-0 opacity-90"
 					variants={{
-						initial: { opacity: 0, translateX: "-100px" },
-						animated: { opacity: 1, translateX: 0, }
+						initial: { opacity: 0 },
+						animated: { opacity: 1 }
 					}}
 					duration={1}
 				/>

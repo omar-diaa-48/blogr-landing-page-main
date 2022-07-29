@@ -7,7 +7,7 @@ export default function Footer() {
 		<footer className="footer-background">
 			<div className="footer-section">
 				<div className="flex flex-col lg:flex-row justify-between mt-12 h-32 font-ubuntu mb-16">
-					<div className="mr-4 lg:flex-grow-0">
+					<div className="mr-4 mb-12 lg:mb-0 lg:flex-grow-0">
 						<img alt="Logo" src={Logo} />
 					</div>
 
